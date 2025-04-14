@@ -11,27 +11,45 @@ html , body{
 }
 header{
     text-align: center;
-    background-color: #758278;
+    background-color: #bf1e2e;
     padding: 20px
 }
 
 header .pfp{
-    width: 300px;
-    height: 300px;
-    border: 10px solid #fdfbf4;
-    border-radius: 50%;
-    background-image: url('./../img/header.png');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    margin: 0 auto;
+    height: 412px;
+    width: 730px;
+    background-image: url('./../img/header.jpg');
+    display: block;
+    margin: auto;
+    margin-bottom:-20px;
 }
 
-header h1{
+header h1, h2, p, h3{
     font-family: "Poetsen One", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #fdfbf4;
     font-size: 50px;
-    margin: 0px 0 20px 0;
+    margin:auto;
+}
+
+h2, p, h3{
+    color: #bf1e2e;
+    font-size: 190%;
+    text-align: center;
+    margin-top: 20px;
+}
+p{
+    font-size: 120%;
+    color: black;
+}
+h3{
+    margin-top: 40px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-top: 18px;
+    border-radius: 50%;
+
 }
